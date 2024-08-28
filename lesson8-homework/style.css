@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  padding-left: calc(50% - 195px);
+  padding-right: calc(50% - 195px);
+}
+
+.phone {
+  width: 390px;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header__left img {
+  margin-right: 10px;
+}
+
+.subproduct {
+  background-color: #F1E4E6;
+  height: 363px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.subproduct h1 {
+  position: absolute;
+  top: 150px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.brick {
+  position: absolute;
+  right: 14px;
+  top: 144px;
+  background-color: #F16D7F;
+  width: 12px;
+  height: 61px;
+}
+
+.catalog {
+  width: 343px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.catalog > div {
+  position: relative;
+  width: 100%;
+}
+.catalog img {
+  width: 100%;
+  height: auto;
+}
+.catalog p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 153px;
+  font-weight: 400;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+.catalog p:nth-child(1) {
+  position: relative;
+  left: 10px;
+  font-size: 24px;
+  color: white;
+}
+.catalog p:nth-child(2) {
+  font-size: 22px;
+  color: #F16D7F;
+}
+
+.accesories {
+  position: relative;
+  margin-top: -30px;
+}
+.accesories img {
+  width: 100%;
+  height: auto;
+}
+
+.subtext {
+  text-align: center;
+  padding: 40px;
+}
+.subtext h1 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.subtext p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9f9f9f;
+}
+
+.products {
+  width: 100%;
+  padding: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.product img {
+  width: 90%;
+  max-width: 359px;
+  height: auto;
+}
+.product h1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.product p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #333;
+}
+
+.botton {
+  display: flex;
+  justify-content: center;
+  bottom: 10px;
+  position: relative;
+  top: 50px;
+}
+.botton h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 212px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #F16D7F;
+  border: 1px solid #ff6a6a;
+  line-height: 19.2px;
+}/*# sourceMappingURL=style.css.map */
